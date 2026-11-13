@@ -1,0 +1,23 @@
+[
+  {
+    "module": "Solution.LR1Q",
+    "exit_code": 0,
+    "elapsed_seconds": 48.91374728100163,
+    "olean_bytes": 39421032,
+    "log": "/workspace/hamming-six-optimization-analysis/Solution-LR1Q-build.log"
+  },
+  {
+    "module": "Solution.LR3Q",
+    "exit_code": 0,
+    "elapsed_seconds": 46.23800375800056,
+    "olean_bytes": 52695736,
+    "log": "/workspace/hamming-six-optimization-analysis/Solution-LR3Q-build.log"
+  },
+  {
+    "module": "Solution.LRAssemble",
+    "exit_code": 0,
+    "elapsed_seconds": 11.103639122000459,
+    "olean_bytes": 831552,
+    "log": "/workspace/hamming-six-optimization-analysis/Solution-LRAssemble-build.log"
+  }
+]

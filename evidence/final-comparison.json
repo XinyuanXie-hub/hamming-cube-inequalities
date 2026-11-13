@@ -1,0 +1,14 @@
+{
+  "changed_source_files": [
+    "Solution/LR1Q.lean",
+    "Solution/LR3Q.lean",
+    "Solution/LRAssemble.lean",
+    "Solution/LRFinal.lean"
+  ],
+  "baseline_source_hashes_preserved": true,
+  "candidate_seconds": 340.3990772060006,
+  "baseline_seconds": 738.1341640270002,
+  "runtime_reduction_percent": 53.88384743650083,
+  "baseline_lines": 10343,
+  "candidate_lines": 7548
+}

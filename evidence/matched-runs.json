@@ -1,0 +1,16 @@
+[
+  {
+    "name": "candidate",
+    "project": "/workspace/hamming-cube-optimization",
+    "seconds": 340.3990772060006,
+    "exit_code": 0,
+    "passed": true
+  },
+  {
+    "name": "baseline",
+    "project": "/workspace/hamming-cube-review",
+    "seconds": 738.1341640270002,
+    "exit_code": 0,
+    "passed": true
+  }
+]

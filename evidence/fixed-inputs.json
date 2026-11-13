@@ -1,0 +1,26 @@
+{
+  "Challenge.lean": {
+    "baseline": "9d011cfed5ac5b051f6dd3c61696c036a21d2c87cafb5b14f9833e221396be15",
+    "candidate": "9d011cfed5ac5b051f6dd3c61696c036a21d2c87cafb5b14f9833e221396be15"
+  },
+  "comparator.json": {
+    "baseline": "45f2f49050b6b42eefb3ebbe408a65e3b04c5ed719c51db172be0bd4c7262570",
+    "candidate": "45f2f49050b6b42eefb3ebbe408a65e3b04c5ed719c51db172be0bd4c7262570"
+  },
+  "lean-toolchain": {
+    "baseline": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
+    "candidate": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c"
+  },
+  "lakefile.toml": {
+    "baseline": "a43fcbf9127621239131309a841554131d52da1013e352a74a395cd17516e910",
+    "candidate": "a43fcbf9127621239131309a841554131d52da1013e352a74a395cd17516e910"
+  },
+  "lake-manifest.json": {
+    "baseline": "8c54e8e1043426cbbca59a3e5791dc1ddf6c259ebeb61cccceb87a3b26601a87",
+    "candidate": "8c54e8e1043426cbbca59a3e5791dc1ddf6c259ebeb61cccceb87a3b26601a87"
+  },
+  "scripts/verify-comparator.sh": {
+    "baseline": "518404101e49137a852825eb80f904299557a3cf814a04972dd0730ff4b0172d",
+    "candidate": "518404101e49137a852825eb80f904299557a3cf814a04972dd0730ff4b0172d"
+  }
+}
