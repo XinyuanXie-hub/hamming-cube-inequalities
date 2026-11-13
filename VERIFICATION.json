@@ -1,0 +1,66 @@
+{
+  "template_commit": "a2b0336c176c884d3e7ea3b833b74673b0c2917d",
+  "lean": "4.35.0",
+  "mathlib_commit": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "kernels": [
+    "Lean",
+    "NanoDa",
+    "con-ron"
+  ],
+  "targets": [
+    "HammingCube.theorem_1_1",
+    "HammingCube.theorem_1_2",
+    "HammingCube.theorem_1_3"
+  ],
+  "result": "Your solution is okay!",
+  "exit_code": 0,
+  "con_ron_declarations": 34628,
+  "elapsed_seconds": 340.3990772060006,
+  "sha256": {
+    "Challenge.lean": "9d011cfed5ac5b051f6dd3c61696c036a21d2c87cafb5b14f9833e221396be15",
+    "comparator.json": "45f2f49050b6b42eefb3ebbe408a65e3b04c5ed719c51db172be0bd4c7262570",
+    "Solution.lean": "2306136f2651f605fc907b83105c3a8b568985dece0a7d75fa9e5cc93755d418",
+    "Solution/AlternativeProfile.lean": "387cbfca2a0cab9c01c1831bff99eb649374d4901f4ceba8ce587a5a94c68eca",
+    "Solution/CertificateAssembly.lean": "9be5440ed66238c7f30b33f647b75ce374e32709e9e3bea9fa6b4ae191438ca6",
+    "Solution/ChordBounds.lean": "d13504bc4819e2ce8a5c2055fc9c33d9c33eb9855a96411e07a27588adaaf36c",
+    "Solution/ConcreteProfile.lean": "3e958fbba0816ff6126e2b4a5a39b3cf941a92a0528be519d07d46ad3db06b63",
+    "Solution/CubicProfile.lean": "327f2d9e64813a0786df43c048577930f9d03490da5bd32644f7dd3bf476da96",
+    "Solution/LR0Qa.lean": "b109433e4ea12db322d30ad1cf04141f9ab3ecc1b992ef1d6a315d30b010f9dd",
+    "Solution/LR0Qb.lean": "ebcec54662711d339c351b4b50528cdc6afda3249eed452d9bfd900176b26f62",
+    "Solution/LR0R.lean": "7b3035ae10aefbda9a0652851b7623249370f390ed7d19fe410aa77563a60f14",
+    "Solution/LR1Q.lean": "4b6721dc5411b7f96580d2dfc1bbfd05c49e918b9fa977f6c1ec7a679a3e5a55",
+    "Solution/LR1R.lean": "fa60df97e12726a6b076d715c477d93b9c1d8ac7ace533302fe9efb31fbebfa4",
+    "Solution/LR2Q.lean": "13faf0a8f2d42975aa9936c1d70f294d7f78ca2e98a389287ac79e8d83f51977",
+    "Solution/LR2R.lean": "0018b2c38ac86561a8968a6bf5b2875d3ee88ea329ca59eb81de24424c67269a",
+    "Solution/LR3Q.lean": "2a4656681326eb97b17060da87cbcb8480e970ca389042c3523a7224c5a2a24e",
+    "Solution/LR3R.lean": "71e555184c2b90cca970cec9784fc740574952939bd2790a2dab9107a0b77d9f",
+    "Solution/LRAssemble.lean": "df63bc94064d1c506cdf2c1cfde93d9ac876ff644bd5c44fa98718717204b505",
+    "Solution/LRFinal.lean": "c0d4121f25c92e24e6178b04c6e79cd70d75548b06ec985e7320b09df26167bb",
+    "Solution/LRSymmetry.lean": "50c82fb30ee241e869cdecb7578db02e235a4c92487473b8078693a51d869e68",
+    "Solution/LogProfile.lean": "03877b084cf42acdd0ad12f68cae3d96c4931e50096e68c31f271fd25662e9a1",
+    "Solution/MixedLRDefinitions.lean": "ef79bc82c4c6a8ed81cbbee4bbcac5159e7d7417d26bee9b4c8feda63eb136fa",
+    "Solution/PolynomialQRQ.lean": "e62dfe6bebd2a8df26a458a60743e5bdac2c564d20bc955c781bc69a318da764",
+    "Solution/PolynomialQRR.lean": "5948c318607aee2f4822cb9d9d91e8ca069dc12165694dd9b8449b982716c55c"
+  },
+  "matched_runs": [
+    {
+      "name": "candidate",
+      "project": "/workspace/hamming-cube-optimization",
+      "seconds": 340.3990772060006,
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "name": "baseline",
+      "project": "/workspace/hamming-cube-review",
+      "seconds": 738.1341640270002,
+      "exit_code": 0,
+      "passed": true
+    }
+  ],
+  "runtime_reduction_percent": 53.88384743650083,
+  "proof_lines": {
+    "baseline": 10343,
+    "optimized": 7548
+  }
+}
