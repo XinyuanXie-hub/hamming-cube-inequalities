@@ -3,7 +3,7 @@
 
 # Isoperimetric inequalities on the Hamming cube
 
-This project uses Lean to verify the two statements below, corresponding to Theorems 1.1 and 1.3 of the paper cited below.
+This project uses Lean to verify the three statements below, corresponding to Theorems 1.1, 1.2, and 1.3 of the paper cited below.
 
 > Polona Durcik, Paata Ivanisvili, Joris Roos, and Xinyuan Xie,
 > *Sharp isoperimetric inequalities on the Hamming cube II: The critical exponent*,
@@ -34,7 +34,21 @@ At $`\mu(A)=0`$, the left side is defined to be zero. This is the inequality in 
 
 <a name="theorem-2"></a>
 
-**Theorem 2.** For every Boolean-valued function $`f:Q_n\to\{0,1\}`$, define
+**Theorem 2.** Let $`A,B,W`$ be pairwise disjoint subsets whose union is $`Q_n`$, and suppose $`\mu(A)=1/2`$. Define the normalized number of edges from $`A`$ to $`B`$ by
+
+```math
+\mu(A,B):=\frac{1}{2^n}\sum_{x\in A}|\{i:x^{(i)}\in B\}|.
+```
+
+Each edge between $`A`$ and $`B`$ is counted once. Then
+
+```math
+\frac12\leq\mu(A,B)+\sqrt n\,\mu(W).
+```
+
+<a name="theorem-3"></a>
+
+**Theorem 3.** For every Boolean-valued function $`f:Q_n\to\{0,1\}`$, define
 
 ```math
 |\nabla f(x)|=\left(\sum_{i=1}^n\left(\frac{f(x)-f(x^{(i)})}{2}\right)^2\right)^{1/2}.
@@ -50,7 +64,7 @@ Equality holds when $`f`$ is the indicator of either coordinate half-cube $`\{x:
 
 ## Verification
 
-To verify the correctness of the theorems in Lean, one only needs to check that the statements and definitions in [Challenge.lean](Challenge.lean) match [Theorem 1](#theorem-1) and [Theorem 2](#theorem-2) stated above, and confirm that `lake comparator` succeeds.
+To verify the correctness of the theorems in Lean, one only needs to check that the statements and definitions in [Challenge.lean](Challenge.lean) match [Theorem 1](#theorem-1), [Theorem 2](#theorem-2), and [Theorem 3](#theorem-3) stated above, and confirm that `lake comparator` succeeds.
 
 The results of `lake comparator` can be checked through the GitHub workflow provided by this project as follows:
 
